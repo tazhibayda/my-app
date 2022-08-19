@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root{
+    display: flex;
+    justify-content: space-between;
+}
+
+.App{
+    width: 800px;
+}
+
+.post{
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    margin-top: 15px;
+    margin-left: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trash_Icon{
+    height: 16px;
+    cursor: pointer;
+}
+/* .trash_Icon:     */
